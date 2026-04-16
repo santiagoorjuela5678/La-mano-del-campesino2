@@ -33,7 +33,7 @@
     </nav>
 
     <header id="inicio" class="hero fade-in-section">
-        <div class="hero-bg" style="background-image: url('media__1776292206533.jpg');"></div>
+        <div class="hero-bg" style="background-image: url('media__1776292206533.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <span class="hero-subtitle">Conexión con la Naturaleza</span>
@@ -48,73 +48,146 @@
         </div>
     </header>
 
-    <section id="historia" class="history-section fade-in-section">
+    <section id="historia" class="history-section fade-in-section" style="padding: 100px 0; background-color: var(--bg-white);">
         <div class="container">
-            <div class="history-content">
+            <div class="history-content" style="max-width: 900px; margin: 0 auto 50px auto; text-align: center;">
                 <h2 class="section-title">Nuestra Historia Monumental</h2>
-                <p><strong>La Mano del Campesino</strong> es, ante todo, un sentido conmemoramiento a los valientes campesinos de Colombia. Ellos son el corazón que hace latir nuestros campos, quienes con sus manos labran la tierra de sol a sol para llevar alimento a nuestros hogares. Este proyecto nace como un tributo a su labor incansable, su resiliencia y el amor profundo que le tienen a nuestras raíces.</p>
-                <p>A su lado, se alza imponente nuestra gigante estructura de metal: <strong>La Mano Milagrosa</strong>. Las fuertes e intrincadas uniones de su construcción representan un símbolo inquebrantable de <em>fe y esperanza</em>.</p>
+                <p style="font-size: 1.15rem; line-height: 1.8; color: var(--text-light); margin-bottom: 20px;">
+                    <strong>La Mano del Campesino</strong> es, ante todo, un sentido conmemoramiento a los valientes campesinos de Colombia. Ellos son el corazón que hace latir nuestros campos, quienes con sus manos labran la tierra de sol a sol para llevar alimento a nuestros hogares. Este proyecto nació para honrar su labor incansable, su resiliencia y el amor profundo que le tienen a nuestras raíces. Hemos convertido la majestuosidad de las montañas en un tributo vivo a su memoria, invitándote a reconectar con la esencia pura de nuestro país.
+                </p>
+                <p style="font-size: 1.15rem; line-height: 1.8; color: var(--text-light); margin-bottom: 20px;">
+                    A su lado, se alza imponente nuestra gigante estructura de metal: <strong>La Mano Milagrosa</strong>. Las fuertes e intrincadas uniones de su construcción representan un símbolo inquebrantable de <em>fe y esperanza</em>. Es un recordatorio visual de que, incluso en tiempos de frío o adversidad, somos capaces de forjar verdaderos milagros.
+                </p>
             </div>
-            <div class="history-images">
-                <div class="history-img-wrapper" style="background-image: url('media__1776297874192.jpg');"></div>
-                <div class="history-img-wrapper" style="background-image: url('media__1776292790577.jpg');"></div>
+            <div class="history-images" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+                <div style="height: 400px; border-radius: var(--border-radius-lg); background-image: url('media__1776297874192.jpg'); background-size: cover; background-position: center; box-shadow: var(--shadow-lg);" title="La Mano del Campesino"></div>
+                <div style="height: 400px; border-radius: var(--border-radius-lg); background-image: url('media__1776292790577.jpg'); background-size: cover; background-position: center; box-shadow: var(--shadow-lg);" title="La Mano Milagrosa"></div>
             </div>
         </div>
     </section>
 
-    <section id="ingreso" class="pricing-section fade-in-section">
+    <section id="ingreso" style="padding: 80px 0; text-align: center; background: rgba(139, 195, 74, 0.1);">
+        <div class="container fade-in-section">
+            <h2 class="section-title" style="margin-bottom: 10px;">Costo de Ingreso</h2>
+            <div style="font-size: 4rem; font-weight: 800; color: var(--primary-dark); margin: 20px 0;">$20.000 <span style="font-size: 1.5rem; font-weight: 500; color: var(--text-light);">COP / persona</span></div>
+            <p style="font-size: 1.2rem; margin-top: 15px; color: var(--text-dark);">
+                🎉 <strong>¡Entrada TOTALMENTE GRATIS para:</strong> <br>
+                <span style="color: var(--primary); font-weight: bold;">Cumpleañeros</span>, niños <span style="color: var(--primary); font-weight: bold;">menores de 5 años</span> y adultos mayores de <span style="color: var(--primary); font-weight: bold;">80 años</span>!
+            </p>
+        </div>
+    </section>
+
+    <section id="servicios" class="services-section fade-in-section">
         <div class="container">
-            <h2 class="section-title">Ingreso al Mirador</h2>
-            <div class="pricing-grid">
-                <div class="pricing-card featured">
-                    <div class="pricing-header">
-                        <h3>Entrada General</h3>
-                        <div class="price"><span>$</span>20.000</div>
-                        <p>Por persona</p>
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <p class="section-subtitle">Disfruta de instalaciones pensadas para brindarte confort y alegría en medio de la naturaleza.</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('media__1776293037037.jpg');"></div>
+                    <div class="service-info">
+                        <div class="service-icon"><i data-lucide="bed-double"></i></div>
+                        <h3>Estadía en Glamping</h3>
+                        <p>Despierta rodeado de paz en nuestros hermosos glampings e instalaciones exclusivas bajo las estrellas.</p>
                     </div>
-                    <ul class="pricing-features">
-                        <li><i data-lucide="check-circle"></i> Acceso a la Mano del Campesino</li>
-                        <li><i data-lucide="check-circle"></i> Granja Interactiva</li>
-                        <li><i data-lucide="check-circle"></i> Miradores Fotográficos</li>
-                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('media__1776292206173.jpg');"></div>
+                    <div class="service-info">
+                        <div class="service-icon"><i data-lucide="utensils-crossed"></i></div>
+                        <h3>Granja Interactiva y Restaurante</h3>
+                        <p>Saborea lo mejor de la comida típica regional y acércate a los tiernos animalitos de nuestra granja en un entorno seguro.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="hospedaje-lujo" class="luxury-section fade-in-section">
+    <section id="hospedaje-lujo" class="fade-in-section" style="padding: 100px 0; background-color: var(--primary-dark); color: white;">
         <div class="container section-container">
             <div class="hospedaje-content">
-                <h2 class="section-title" style="color: white;">Hospedaje de Lujo</h2>
-                <p>Disfruta de la mejor comodidad en nuestro Glamping con jacuzzi calefactable.</p>
-                <div class="price-tag">$290.000 <span>/ Noche</span></div>
+                <h2 class="section-title" style="color: white; text-align: left;">Escápate al corazón de la naturaleza</h2>
+                <p style="font-size: 1.15rem; line-height: 1.8; color: rgba(255,255,255,0.8); margin-bottom: 30px;">
+                    Disfruta de nuestros espectaculares alojamientos tipo Glamping con increíbles vistas al paisaje. Todo diseñado para que vivas una experiencia única y te conectes profundamente con la paz de La Mano del Campesino.
+                </p>
+                <div style="background: rgba(255,255,255,0.1); border-radius: var(--border-radius-lg); padding: 35px; margin-bottom: 35px; border: 1px solid rgba(255,255,255,0.2);">
+                    <div style="font-size: 3rem; font-weight: 800; color: var(--accent); margin-bottom: 25px; line-height: 1;">$290.000 <span style="font-size: 1.2rem; font-weight: 500; color: white;">COP / Noche</span></div>
+                    <ul style="list-style: none; display: flex; flex-direction: column; gap: 15px; font-size: 1.15rem;">
+                        <li style="display: flex; align-items: center; gap: 12px;"><i data-lucide="sun" style="color: var(--accent);"></i> Incluye todo el pasadía del parque</li>
+                        <li style="display: flex; align-items: center; gap: 12px;"><i data-lucide="coffee" style="color: var(--accent);"></i> Desayuno americano</li>
+                        <li style="display: flex; align-items: center; gap: 12px;"><i data-lucide="waves" style="color: var(--accent);"></i> Malla catamarán</li>
+                        <li style="display: flex; align-items: center; gap: 12px;"><i data-lucide="thermometer-sun" style="color: var(--accent);"></i> Jacuzzi calefactable</li>
+                    </ul>
+                </div>
+                <a href="https://wa.me/573134316845" target="_blank" class="btn" style="background-color: var(--accent); color: var(--text-dark); font-weight: bold; font-size: 1.2rem; box-shadow: 0 4px 15px rgba(249, 168, 38, 0.4); text-transform: uppercase;">
+                    <i data-lucide="calendar-check"></i> Reservar Glamping
+                </a>
             </div>
-            <div class="hospedaje-gallery">
-                <div class="hospedaje-img" style="background-image: url('media__1776298566882.jpg');"></div>
-                <div class="hospedaje-img" style="background-image: url('media__1776298566906.jpg');"></div>
-                <div class="hospedaje-img-large" style="background-image: url('media__1776298566890.jpg');"></div>
+            <div class="hospedaje-gallery" style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                <div style="height: 250px; border-radius: var(--border-radius-md); background-image: url('media__1776298566882.jpg'); background-size: cover; background-position: center;"></div>
+                <div style="height: 250px; border-radius: var(--border-radius-md); background-image: url('media__1776298566906.jpg'); background-size: cover; background-position: center;"></div>
+                <div style="grid-column: span 2; height: 350px; border-radius: var(--border-radius-md); background-image: url('media__1776298566890.jpg'); background-size: cover; background-position: center; border: 2px solid rgba(255,255,255,0.2);"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="gallery-section fade-in-section">
+        <div class="container">
+            <h2 class="section-title">Nuestros Atractivos</h2>
+            <p class="section-subtitle">Explora la magia de La Mano del Campesino y maravíllate con nuestros animales, cabañas y la imponente naturaleza.</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item large" style="background-image: url('media__1776293037027.jpg'); background-size: cover; background-position: center;"></div>
+                <div class="gallery-item" style="background-image: url('media__1776292206524.jpg'); background-size: cover; background-position: center;"></div>
+                <div class="gallery-item" style="background-image: url('media__1776292206477.jpg'); background-size: cover; background-position: center;"></div>
+                <div class="gallery-item" style="background-image: url('media__1776292206494.jpg'); background-size: cover; background-position: center;"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ubicacion" class="location-section fade-in-section" style="padding: 100px 0; background-color: var(--bg-light);">
+        <div class="container">
+            <h2 class="section-title">Nuestra Ubicación</h2>
+            <p class="section-subtitle">Visítanos y respira la magia de nuestros paisajes. Te esperamos con los brazos abiertos.</p>
+            
+            <div class="map-container" style="border-radius: var(--border-radius-lg); overflow: hidden; position: relative; background: #fff; box-shadow: var(--shadow-md); padding: 50px 20px; text-align: center; border: 2px solid rgba(46, 125, 50, 0.1);">
+                <i data-lucide="map-pin" style="width: 70px; height: 70px; color: var(--primary); margin-bottom: 20px; display: inline-block;"></i>
+                <h3 style="font-size: 1.8rem; margin-bottom: 15px; color: var(--primary-dark);">Descubre cómo llegar</h3>
+                <p style="font-size: 1.1rem; color: var(--text-light); margin-bottom: 30px; max-width: 500px; margin-left: auto; margin-right: auto;">Hemos guardado nuestra ubicación exacta en línea para que tu viaje hacia nosotros sea rápido y seguro usando tu GPS.</p>
+                <a href="https://share.google/RRinCWvsILJdPWjHa" target="_blank" class="btn btn-primary" style="font-size: 1.2rem; padding: 15px 40px; box-shadow: var(--shadow-lg);">
+                    <i data-lucide="navigation"></i> Abrir en Google Maps
+                </a>
             </div>
         </div>
     </section>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-info">
-                    <h3>La Mano del Campesino</h3>
-                    <p>Icononzo, Tolima - El Balcón del Oriente</p>
-                    <div class="social-links">
-                        <a href="https://www.instagram.com/lamanodelcampesino" target="_blank"><img src="media__1776298141516.jpg" style="width: 45px; border-radius: 10px;"></a>
-                        <a href="https://web.facebook.com/share/173CzFLZB5/" target="_blank"><img src="media__1776298141556.png" style="width: 45px;"></a>
-                        <a href="https://wa.me/573134316845" target="_blank"><img src="media__1776298141560.png" style="width: 45px;"></a>
-                    </div>
+        <div class="container footer-content">
+            <div class="footer-links">
+                <h3>Síguenos</h3>
+                <div class="social-icons" style="display: flex; gap: 20px; align-items: center;">
+                    <a href="https://www.instagram.com/lamanodelcampesino" target="_blank" aria-label="Instagram" style="display: inline-block; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="media__1776298141516.jpg" alt="Instagram" style="width: 45px; height: 45px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+                    </a>
+                    <a href="https://web.facebook.com/profile.php?id=61569970416321" target="_blank" aria-label="Facebook Perfil 1" style="display: inline-block; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="media__1776298141556.png" alt="Facebook" style="width: 45px; height: 45px; object-fit: contain; box-shadow: 0 4px 10px rgba(0,0,0,0.3); background: transparent; border-radius: 50%;">
+                    </a>
+                    <a href="https://web.facebook.com/share/173CzFLZB5/" target="_blank" aria-label="Facebook Perfil 2" style="display: inline-block; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="media__1776298141556.png" alt="Facebook" style="width: 45px; height: 45px; object-fit: contain; box-shadow: 0 4px 10px rgba(0,0,0,0.3); background: transparent; border-radius: 50%;">
+                    </a>
                 </div>
+            </div>
+            <div class="footer-contact">
+                <h3>Reservas</h3>
+                <a href="https://wa.me/573134316845" target="_blank" style="display: inline-flex; align-items: center; gap: 10px; background-color: rgba(255,255,255,0.1); color: white; padding: 10px 24px; border-radius: 50px; text-decoration: none; font-weight: bold; transition: all 0.3s" onmouseover="this.style.backgroundColor='rgba(255,255,255,0.2)'; this.style.transform='scale(1.05)'" onmouseout="this.style.backgroundColor='rgba(255,255,255,0.1)'; this.style.transform='scale(1)'">
+                    <img src="media__1776298141560.png" alt="WhatsApp" style="width: 35px; height: 35px; border-radius: 50%;">
+                    WhatsApp: 313 4316845
+                </a>
             </div>
         </div>
     </footer>
 
-    <script>
-        lucide.createIcons();
-    </script>
+    <script src="main.js"></script>
 </body>
 </html>
