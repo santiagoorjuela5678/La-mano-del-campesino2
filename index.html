@@ -4,10 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Mano del Campesino | Estadía y Restaurante</title>
-    <meta name="description" content="Ven a conocer La Mano del Campesino. Servicio de estadía, restaurante y deslumbrantes atractivos naturales. Reserva tu visita.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilo.css">
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
@@ -15,90 +11,39 @@
 
     <nav class="navbar">
         <div class="nav-container">
-            <a href="#" class="logo">
-                <i data-lucide="mountain-snow"></i>
-                <span>La Mano del Campesino</span>
-            </a>
+            <a href="#" class="logo"><span>La Mano del Campesino</span></a>
             <ul class="nav-links">
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#historia">Historia</a></li>
-                <li><a href="#ingreso">Ingreso</a></li>
-                <li><a href="#hospedaje-lujo">Glamping</a></li>
                 <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#galeria">Atractivos</a></li>
-                <li><a href="#ubicacion">Ubicación</a></li>
             </ul>
-            <a href="https://wa.me/573134316845" target="_blank" class="nav-cta">Reservar</a>
         </div>
     </nav>
 
-    <header id="inicio" class="hero fade-in-section">
-        <div class="hero-bg" style="background-image: url('media__1776292206533.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <span class="hero-subtitle">Conexión con la Naturaleza</span>
-            <h1 class="hero-title">Bienvenidos a <br/> La Mano del Campesino</h1>
-            <p class="hero-text">Una experiencia inolvidable con hospedaje, la mejor comida local y vistas asombrosas.</p>
-            <div class="hero-buttons">
-                <a href="https://wa.me/573134316845" target="_blank" class="btn btn-primary">
-                    <i data-lucide="calendar-check"></i> Reservar Ahora
-                </a>
-                <a href="#historia" class="btn btn-secondary">Nuestra Historia</a>
+    <header id="inicio" class="hero">
+        <div class="hero-bg" style="background-image: url('media__1776292206533.jpg'); background-size: cover; height: 100vh;">
+            <div style="background: rgba(0,0,0,0.5); height: 100%; display: flex; align-items: center; justify-content: center; color: white; text-align: center;">
+                <div>
+                    <h1>Bienvenidos a La Mano del Campesino</h1>
+                    <p>Experiencia inolvidable en Icononzo</p>
+                </div>
             </div>
         </div>
     </header>
 
-    <section id="historia" class="history-section fade-in-section" style="padding: 100px 0; background-color: var(--bg-white);">
-        <div class="container">
-            <div class="history-content" style="max-width: 900px; margin: 0 auto 50px auto; text-align: center;">
-                <h2 class="section-title">Nuestra Historia Monumental</h2>
-                <p><strong>La Mano del Campesino</strong> es un sentido conmemoramiento a los valientes campesinos de Colombia...</p>
-            </div>
-            <div class="history-images" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
-                <div style="height: 400px; border-radius: var(--border-radius-lg); background-image: url('media__1776297874192.jpg'); background-size: cover; background-position: center; box-shadow: var(--shadow-lg);"></div>
-                <div style="height: 400px; border-radius: var(--border-radius-lg); background-image: url('media__1776292790577.jpg'); background-size: cover; background-position: center; box-shadow: var(--shadow-lg);"></div>
-            </div>
+    <section id="servicios" style="padding: 50px; text-align: center;">
+        <h2>Nuestros Servicios</h2>
+        <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+            <img src="media__1776293037037.jpg" width="300" style="border-radius: 15px;">
+            <img src="media__1776292206173.jpg" width="300" style="border-radius: 15px;">
         </div>
     </section>
 
-    <section id="servicios" class="services-section fade-in-section">
-        <div class="container">
-            <h2 class="section-title">Nuestros Servicios</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-img" style="background-image: url('media__1776293037037.jpg');"></div>
-                    <div class="service-info">
-                        <h3>Estadía en Glamping</h3>
-                    </div>
-                </div>
-                <div class="service-card">
-                    <div class="service-img" style="background-image: url('media__1776292206173.jpg');"></div>
-                    <div class="service-info">
-                        <h3>Granja Interactiva y Restaurante</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="hospedaje-lujo" class="fade-in-section" style="padding: 100px 0; background-color: var(--primary-dark); color: white;">
-        <div class="container section-container">
-            <div class="hospedaje-gallery" style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
-                <div style="height: 250px; border-radius: var(--border-radius-md); background-image: url('media__1776298566882.jpg'); background-size: cover; background-position: center;"></div>
-                <div style="height: 250px; border-radius: var(--border-radius-md); background-image: url('media__1776298566906.jpg'); background-size: cover; background-position: center;"></div>
-                <div style="grid-column: span 2; height: 350px; border-radius: var(--border-radius-md); background-image: url('media__1776298566890.jpg'); background-size: cover; background-position: center;"></div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container footer-content">
-            <div class="social-icons">
-                <a href="#"><img src="media__1776298141516.jpg" alt="Instagram" style="width: 45px; border-radius: 12px;"></a>
-                <a href="#"><img src="media__1776298141556.png" alt="Facebook" style="width: 45px;"></a>
-                <a href="#"><img src="media__1776298141560.png" alt="WhatsApp" style="width: 35px;"></a>
-            </div>
-        </div>
+    <footer style="text-align: center; padding: 20px;">
+        <p>Síguenos en nuestras redes</p>
+        <img src="fb.png" width="40">
+        <img src="wa.png" width="40">
+        <img src="ig.jpg" width="40">
     </footer>
 
     <script src="main.js"></script>
