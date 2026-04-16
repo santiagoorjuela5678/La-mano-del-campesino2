@@ -8,8 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css"> <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
 
@@ -52,68 +51,55 @@
         <div class="container">
             <div class="history-content" style="max-width: 900px; margin: 0 auto 50px auto; text-align: center;">
                 <h2 class="section-title">Nuestra Historia Monumental</h2>
-                <p><strong>La Mano del Campesino</strong> es un sentido conmemoramiento a los valientes campesinos de Colombia. Este proyecto nace como un tributo a la labor incansable de quienes labran la tierra, aquellos que con sus manos sostienen la seguridad alimentaria y la cultura de nuestras regiones. Representa la fuerza, la resiliencia y la conexión profunda con la naturaleza que define al campesino colombiano.</p>
-                <p>Ubicada en el corazón de Icononzo, Tolima, nuestra estructura no solo es un mirador asombroso, sino un símbolo de identidad que invita a los visitantes a reflexionar sobre la importancia del campo y a disfrutar de la hospitalidad que solo nuestra tierra puede ofrecer.</p>
+                <p style="font-size: 1.15rem; line-height: 1.8; margin-bottom: 20px;">
+                    <strong>La Mano del Campesino</strong> es, ante todo, un sentido conmemoramiento a los valientes campesinos de Colombia. Ellos son el corazón que hace latir nuestros campos, quienes con sus manos labran la tierra de sol a sol para llevar alimento a nuestros hogares. Este proyecto nació para honrar su labor incansable, su resiliencia y el amor profundo que le tienen a nuestras raíces.
+                </p>
+                <p style="font-size: 1.15rem; line-height: 1.8; margin-bottom: 20px;">
+                    A su lado, se alza imponente nuestra gigante estructura de metal: <strong>La Mano Milagrosa</strong>. Las fuertes e intrincadas uniones de su construcción representan un símbolo inquebrantable de <em>fe y esperanza</em>.
+                </p>
             </div>
             <div class="history-images" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
-                <div style="height: 400px; border-radius: 20px; background-image: url('media__1776297874192.jpg'); background-size: cover; background-position: center;"></div>
-                <div style="height: 400px; border-radius: 20px; background-image: url('media__1776292790577.jpg'); background-size: cover; background-position: center;"></div>
+                <div style="height: 400px; border-radius: 15px; background-image: url('media__1776297874192.jpg'); background-size: cover; background-position: center; box-shadow: 0 10px 30px rgba(0,0,0,0.1);"></div>
+                <div style="height: 400px; border-radius: 15px; background-image: url('media__1776292790577.jpg'); background-size: cover; background-position: center; box-shadow: 0 10px 30px rgba(0,0,0,0.1);"></div>
             </div>
         </div>
     </section>
 
-    <section id="servicios" class="services-section fade-in-section">
+    <section id="ingreso" style="padding: 80px 0; text-align: center; background: #f4f4f4;">
         <div class="container">
-            <h2 class="section-title">Nuestros Servicios</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-img" style="background-image: url('media__1776293037037.jpg');"></div>
-                    <div class="service-info">
-                        <h3>Estadía en Glamping</h3>
-                        <p>Disfruta de la comodidad de un hotel con la magia de acampar bajo las estrellas de Icononzo.</p>
-                    </div>
-                </div>
-                <div class="service-card">
-                    <div class="service-img" style="background-image: url('media__1776292206173.jpg');"></div>
-                    <div class="service-info">
-                        <h3>Granja Interactiva y Restaurante</h3>
-                        <p>Saborea lo mejor de la comida típica y comparte con los animales en un ambiente familiar único.</p>
-                    </div>
-                </div>
+            <h2>Costo de Ingreso</h2>
+            <div style="font-size: 3rem; font-weight: bold; color: #2e7d32; margin: 20px 0;">$20.000 COP</div>
+            <p><strong>¡Entrada GRATIS para!</strong> Cumpleañeros, menores de 5 años y mayores de 80 años.</p>
+        </div>
+    </section>
+
+    <section id="servicios" style="padding: 100px 0;">
+        <div class="container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
+            <div style="max-width: 400px; text-align: center;">
+                <img src="media__1776293037037.jpg" style="width: 100%; border-radius: 15px;">
+                <h3>Estadía en Glamping</h3>
+                <p>Despierta rodeado de paz en nuestros hermosos glampings con jacuzzi calefactable.</p>
+            </div>
+            <div style="max-width: 400px; text-align: center;">
+                <img src="media__1776292206173.jpg" style="width: 100%; border-radius: 15px;">
+                <h3>Restaurante y Granja</h3>
+                <p>Deleita tu paladar con nuestra gastronomía y comparte con bellos animales de granja.</p>
             </div>
         </div>
     </section>
 
-    <section id="hospedaje-lujo" class="fade-in-section" style="padding: 100px 0; background-color: #1a3c34; color: white;">
-        <div class="container section-container">
-            <div class="hospedaje-content" style="text-align: center; margin-bottom: 50px;">
-                <h2 class="section-title" style="color: white;">Hospedaje de Lujo</h2>
-                <p>Contamos con Glamping privado, jacuzzi y la mejor vista del Balcón del Oriente.</p>
-            </div>
-            <div class="hospedaje-gallery" style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
-                <div style="height: 250px; border-radius: 15px; background-image: url('media__1776298566882.jpg'); background-size: cover; background-position: center;"></div>
-                <div style="height: 250px; border-radius: 15px; background-image: url('media__1776298566906.jpg'); background-size: cover; background-position: center;"></div>
-                <div style="grid-column: span 2; height: 350px; border-radius: 15px; background-image: url('media__1776298566890.jpg'); background-size: cover; background-position: center;"></div>
-            </div>
+    <footer style="background: #1a3c34; color: white; padding: 60px 0; text-align: center;">
+        <p>Icononzo, Tolima - El Balcón del Oriente</p>
+        <div style="margin-top: 20px;">
+            <a href="https://wa.me/573134316845" target="_blank" style="color: white; text-decoration: none; font-weight: bold;">WhatsApp: 313 4316845</a>
         </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container footer-content" style="text-align: center; padding: 50px 0;">
-            <div class="footer-info">
-                <h3>La Mano del Campesino</h3>
-                <p>Icononzo, Tolima - El Balcón del Oriente</p>
-            </div>
-            <div class="social-icons" style="display: flex; gap: 20px; justify-content: center; margin-top: 25px;">
-                <a href="https://www.instagram.com/lamanodelcampesino" target="_blank"><img src="media__1776298141516.jpg" alt="Instagram" style="width: 45px; border-radius: 10px;"></a>
-                <a href="https://web.facebook.com/share/173CzFLZB5/" target="_blank"><img src="media__1776298141556.png" alt="Facebook" style="width: 45px;"></a>
-                <a href="https://wa.me/573134316845" target="_blank"><img src="media__1776298141560.png" alt="WhatsApp" style="width: 35px;"></a>
-            </div>
+        <div style="margin-top: 20px; display: flex; justify-content: center; gap: 15px;">
+            <img src="media__1776298141516.jpg" width="40" style="border-radius: 8px;">
+            <img src="media__1776298141556.png" width="40">
+            <img src="media__1776298141560.png" width="40">
         </div>
     </footer>
 
-    <script>
-        lucide.createIcons();
-    </script>
+    <script>lucide.createIcons();</script>
 </body>
 </html>
