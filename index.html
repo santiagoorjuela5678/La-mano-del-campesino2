@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Mano del Campesino | Estadía y Restaurante</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
@@ -17,35 +17,37 @@
                 <li><a href="#historia">Historia</a></li>
                 <li><a href="#servicios">Servicios</a></li>
             </ul>
+            <a href="https://wa.me/573134316845" target="_blank" class="nav-cta">Reservar</a>
         </div>
     </nav>
 
     <header id="inicio" class="hero">
-        <div class="hero-bg" style="background-image: url('media__1776292206533.jpg'); background-size: cover; height: 100vh;">
-            <div style="background: rgba(0,0,0,0.5); height: 100%; display: flex; align-items: center; justify-content: center; color: white; text-align: center;">
-                <div>
-                    <h1>Bienvenidos a La Mano del Campesino</h1>
-                    <p>Experiencia inolvidable en Icononzo</p>
-                </div>
+        <div class="hero-bg" style="background-image: url('media__1776292206533.jpg'); background-size: cover; height: 100vh; background-position: center;">
+            <div style="background: rgba(0,0,0,0.5); height: 100%; display: flex; align-items: center; justify-content: center; color: white; text-align: center; flex-direction: column;">
+                <h1>Bienvenidos a La Mano del Campesino</h1>
+                <p>Una experiencia inolvidable en Icononzo, Tolima</p>
             </div>
         </div>
     </header>
 
-    <section id="servicios" style="padding: 50px; text-align: center;">
-        <h2>Nuestros Servicios</h2>
-        <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
-            <img src="media__1776293037037.jpg" width="300" style="border-radius: 15px;">
-            <img src="media__1776292206173.jpg" width="300" style="border-radius: 15px;">
+    <section id="historia" style="padding: 50px; text-align: center;">
+        <h2>Nuestra Historia Monumental</h2>
+        <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-top: 30px;">
+            <img src="media__1776297874192.jpg" width="400" style="border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.2);">
+            <img src="media__1776292790577.jpg" width="400" style="border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.2);">
         </div>
     </section>
 
-    <footer style="text-align: center; padding: 20px;">
+    <footer style="text-align: center; padding: 40px; background: #f4f4f4;">
         <p>Síguenos en nuestras redes</p>
-        <img src="fb.png" width="40">
-        <img src="wa.png" width="40">
-        <img src="ig.jpg" width="40">
+        <div style="display: flex; gap: 20px; justify-content: center; margin-top: 15px;">
+            <img src="fb.png" width="45">
+            <img src="wa.png" width="45">
+            <img src="ig.jpg" width="45">
+        </div>
     </footer>
 
     <script src="main.js"></script>
+    <script>lucide.createIcons();</script>
 </body>
 </html>
